@@ -1,0 +1,207 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+body{
+	background-color: #343333;
+}
+a{
+	text-decoration: none;
+	color:rgba(0,0,0, 0.87);
+}
+button{
+	outline-style: none;
+}
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.fixed{
+	position: fixed;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+.flex-center{
+	justify-content: center;
+	align-items: center;
+}
+.flex-center-row{
+	display: flex ;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.flex-center-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.flex-start{
+	justify-content: flex-start;
+	align-items: center;
+}
+.flex-end{
+	justify-content: flex-end;
+	align-items: center;
+}
+.flex-space-between{
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-space-around{
+	justify-content: space-around;
+	align-items: center;
+}
+.flex-valign{
+	align-items: center;
+}
+.flex-halign{
+	justify-content: center;
+}
+.height-100-percent{
+	height: 100% !important;
+}
+.width-100-percent{
+	width: 100% !important;
+}
+.margin-0{
+	margin: 0;
+}
+.padding-0{
+	padding: 0;
+}
+.line-height-0{
+	line-height: 0 !important;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.vertical-scroll{
+	overflow-y: auto !important;
+}
+.horizontal-scroll{
+	overflow-x: auto !important;
+}
+.horizontal-scroll::-webkit-scrollbar, .vertical-scroll::-webkit-scrollbar{
+	width: 0;						/*Remove scrollbar space*/
+	background: transparent;		/*Make scrollbar invible*/
+}
+.truncate{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.none{
+	display: none !important;
+}
+.none{
+	display: none !important;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+.first-section-margin-top{
+	margin-top: 92px !important;
+}
+.center-align{
+	text-align: center;
+}
+/* ---------- Generic Color Classes ---------- */
+.black-text{
+	color: #000;
+}
+.white-text{
+	color: #fff;
+}
+.orange-text{
+	color: #ef8643;
+}
+.red-text{
+	color: rgb(213,0,0);
+}
+.blue-text{
+	color: #00bcb1;
+}
+.teal-text-dark{
+	color: #1ec0a4;
+}
+.teal-text-light{
+	color: #00decb;
+}
+.black-bg{
+	background: #000;
+}
+.white-bg{
+	background: #fff;
+}
+.orange-bg{
+	background: #ef8643;
+}
+.blue-bg{
+	background: #00bcb1;
+}
+.teal-bg-dark{
+	background: #1ec0a4;
+}
+.teal-bg-light{
+	background: #00decb;
+}
+.grey-text-lighten-1{
+	color: rgba(0,0,0,0.87);
+}
+.grey-text-lighten-2{
+	color: rgba(0,0,0,0.54);
+}
+.grey-text-lighten-3{
+	color: rgba(0,0,0,0.38);
+}
+.bold-text{
+	font-weight: bold;
+}
+
+
+
+/*Main Card Section*/
+.business-card{
+	margin-top: 30px;
+	width: 90%;
+	padding-top: 50%;
+	background: #000;
+	-webkit-transition: -webkit-box-shadow .25s;
+	transition: -webkit-box-shadow .25s;
+	transition: box-shadow .25s;
+	transition: box-shadow .25s, -webkit-box-shadow .25s;
+	border-radius: 3px;
+}
+.business-card-title{
+	top: 49%;
+	right: 0;
+	left: 0;
+	font-size: 1.3em;
+	text-align: center;
+}
+.business-card-details{
+	top: 70%;
+	right: 8%;
+	font-size: 1em;
+	text-align: right;
+}
+.business-card-icons{
+	padding-top: 3px;
+}

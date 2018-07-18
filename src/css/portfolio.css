@@ -177,9 +177,12 @@ button{
 
 
 
+
 /*Main Card Section*/
+.business-card-section{
+	margin: 20px;
+}
 .business-card{
-	margin-top: 30px;
 	width: 90%;
 	padding-top: 50%;
 	background: #000;
@@ -204,4 +207,8 @@ button{
 }
 .business-card-icons{
 	padding-top: 3px;
+}
+.front, .back{
+	overflow: none;
+	top: 0;
 }

@@ -176,6 +176,14 @@ button{
 }
 
 
+/* Navbar */
+.nav-wrapper{
+	background: #000;
+	color: #fff;
+	padding: 0 20px; 
+}
+
+
 
 
 /*Main Card Section*/

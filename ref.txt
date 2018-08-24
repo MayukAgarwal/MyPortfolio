@@ -1,0 +1,16 @@
+1. Setup 
+
+	https://github.com/facebook/create-react-app
+
+2. React + redux 
+
+	https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react-app-e363ab2329b8
+
+3. GSAP getting started 
+
+	https://greensock.com/get-started-js
+	https://greensock.com/docs/
+
+4 Animations
+
+	Card Flip - https://codepen.io/jamiejefferson/pen/vGEDm

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "connected-react-router": "^4.3.0",
+    "gsap": "^2.0.2",
     "history": "^4.7.2",
     "jquery": "^3.3.1",
     "react": "^16.4.1",
